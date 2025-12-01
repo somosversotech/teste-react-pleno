@@ -1,20 +1,53 @@
-# Desafio 
-Desenvolva um aplicativo web utilizando React e Redux que consuma a API do pokeapi.co para exibir informações sobre Pokémons. O aplicativo deve permitir que o usuário visualize a lista de Pokémons e suas informações individuais, como nome, imagem, tipo, habilidades e estatísticas. As informações devem ser salvas em um estado global gerenciado pelo Redux.
+# 🧪 Desafio Front-End
 
-O aplicativo deve ter uma interface agradável e responsiva, que se adapte a dispositivos móveis e desktops. O usuário deve poder buscar por Pokémons pelo nome ou pelo tipo e também navegar através de páginas de resultados, com um limite de Pokémons por página.
+Crie uma aplicação web utilizando **React** e **Redux** para exibir informações de Pokémons consumindo a **PokeAPI**.
+O projeto deve apresentar uma lista de Pokémons e permitir a visualização dos detalhes de cada um.
 
-Os testes unitários em Jest devem ser escritos para garantir que o aplicativo esteja funcionando corretamente, que os dados estejam sendo corretamente salvos no estado global do Redux e que a paginação esteja funcionando corretamente.
+## 🎯 O que o app deve permitir
 
-# Api externa
-* https://pokeapi.co/
+* Visualizar a lista de Pokémons.
+* Acessar informações individuais (nome, imagem, tipos e demais dados relevantes).
+* Buscar Pokémons por **nome** ou **tipo**.
+* Navegar entre páginas de resultados, com um número limitado de itens por página.
 
-# Tecnologias 
-* React
-* Redux
-* Jest
-* O uso de mais tecnologias é livre
+Os dados devem ser mantidos em um **estado global** utilizando Redux.
+A interface deve ser simples, responsiva e agradável em diferentes dispositivos.
 
-# Pontos que serão avaliados
-* Qualidade do Código
-* Design/Layout da aplicação
-* Componentização
+## 🧪 Testes
+
+* Inclua testes automatizados utilizando **Jest**, garantindo o comportamento correto da aplicação.
+
+## 🌐 API
+
+* **PokeAPI**: [https://pokeapi.co/](https://pokeapi.co/)
+
+## 🔧 Tecnologias obrigatórias
+
+* **React**
+* **Redux**
+* **Jest**
+
+> O uso de tecnologias extras é livre, desde que faça sentido para o seu projeto.
+
+## 📝 Serão avaliados
+
+* Clareza na arquitetura do projeto
+* Uso adequado do Redux
+* Boas práticas de JavaScript/TypeScript
+* Manutenabilidade e escalabilidade
+* Tratamento de erros e estados de carregamento
+* Consistência visual
+* Aderência ao fluxo esperado do usuário
+* Testes automatizados e cobertura mínima sensata
+* Uso consciente de bibliotecas extras
+* Performance geral da aplicação
+
+## ⭐ Funcionalidades Extras (opcionais)
+
+Você pode incluir funcionalidades adicionais que considere relevantes para melhorar a experiência do usuário. Alguns exemplos:
+* Favoritar Pokémons
+* Tema claro/escuro
+* Filtros adicionais
+* Melhorias de acessibilidade
+
+Esses itens são opcionais e servem apenas para destacar sua criatividade e atenção aos detalhes.
